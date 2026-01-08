@@ -34,8 +34,7 @@ if (!db.Movies.Any())
 
     db.AddRange(inception, matrix); // EF finder selv actors/studios via relationerne
     //kræver kun add range på movies da det er det midterste objekt i relationerne og både actors og studios bliver tilføjet automatisk
-    //fordi ef holder øje med movies og deres relationer
-    //Fortæller altså at der er nogen relation mellem movies der skal holdes øje med
+    //addrange Fortæller altså at der er nogen relation mellem movies der skal holdes øje med
     db.SaveChanges();
 }
 

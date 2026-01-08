@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("efeksamen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39e356eeb30f093cff430d68a4e1a067521c9a4e")]
 [assembly: System.Reflection.AssemblyProductAttribute("efeksamen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("efeksamen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
