@@ -6,7 +6,7 @@ $ dotnet add package Microsoft.EntityFrameworkCore.Design --version 9.0.8
 $ dotnet add package Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore --version 9.0.8 
 
 
-for at create 
+for at create db
 dotnet ef migrations add InitialCreate db
 for at opdatere databasen
 dotnet ef database update
@@ -23,6 +23,7 @@ afhængigheder
   
   
   efter en ændring
+  sletdb+migrations
   dotnet ef migrations add titelpåændring
     dotnet ef database update
     dotnet run
